@@ -1,0 +1,15 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET         /                    controllers.Application.index
+GET         /registro/:i         controllers.Application.renderregister(i: Integer)
+GET         /choose              controllers.Application.renderEscolha
+GET         /admin               controllers.Application.renderPanel
+
+POST        /reg                 controllers.Application.reg
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET         /assets/*file        controllers.Assets.at(path="/public/assets/", file)
