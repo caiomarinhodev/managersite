@@ -35,7 +35,7 @@
     line-height:20px;
 }
 a {
-    color:#181A1C;
+    color: #6cf0ff;
     text-decoration: none;
 }
 a:hover {
@@ -375,6 +375,9 @@ p {
 }
 .secondary-section {
     background:#FECE1A;
+}
+.secondary-sections{
+    background: #171717;
 }
 .secondary-section .title {
     border-bottom: 1px solid #181A1C;

@@ -78,27 +78,30 @@
 .da-slide h4{
     color: #181A1C;
     text-transform:uppercase;
-      white-space: nowrap;
     z-index: 10;
 }
 .da-slide h2 {
-    font-size: 33px;
+    white-space: nowrap;
+    font-size: 60px;
     width: 50%;
     top: 120px;
     font-weight:bold;
 }
 
 .da-slide h4{
-    width: 50%;
+
+    width: 45%;
     font-size:22px;
-    top: 175px;
-    font-weight: normal;
+    top: 200px;
+    font-weight:normal;
+    height: 135px;
+    overflow: hidden;
 }
 .da-slide p {
     width: 45%;
     padding:0px;
     top: 230px;
-    color: #fff;
+    color: #171717;
     height: 90px;
     overflow: hidden;
     font-weight: 400;
